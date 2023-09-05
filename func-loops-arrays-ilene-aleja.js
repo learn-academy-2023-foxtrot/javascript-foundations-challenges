@@ -57,3 +57,29 @@ const stringOne = (array) => {
     return letters.join("")
 }
 console.log(stringOne(comboArr))
+
+// Create a function that takes in an array of numbers and returns the sum.
+const addThese1 = [1, 2, 3, 4]
+// output: 10
+const addThese2 = []
+// output: 0
+
+//Pseudocode
+// Input: array of numbers
+// Output: the sum of the numbers in the array
+// Process: Iteration 
+
+const sum = (array) => {
+    let sumNumbers = []
+    for (let i = 0; i < array.length; i++) {
+        sumNumbers.push(array[i])    
+    }
+    return sumNumbers
+} 
+console.log(sum(addThese1))
+
+
+
+// Create a function that takes in an array of numbers and returns the index of the largest number.
+const indexHighestNumber = [1, 4, 2, 3]
+// output: 1
