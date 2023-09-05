@@ -54,3 +54,52 @@ const oddCharacters = (string) => {
     })
 }
 console.log(oddCharacters(pumbaa));
+
+//Create a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: Use the typeof operator.
+const comboArr = [7, "n", "i", "c", 10, "e", false, "w", 3, "o", "r", "k"]
+// output: "nicework"
+
+//Pseudocode
+//Input: Array of numbers and letters
+//Output: A string with only letters
+//Process: .join() and typeof and .filter
+
+const stringOne = (array) => {
+    return array.filter(value => {
+        return typeof value === "string"
+    })
+}
+console.log(stringOne(comboArr).join(""))
+
+//Create a function that takes in an array and returns an array without any false, null, 0, or blank values.
+const filterArrayValues = [58, "", "abcd", true, null, false, 0]
+// output: [58, "abcd", true]
+
+//Pseudocode
+//Input: Array
+//Output: An array without any false, null, 0, or blank values
+//Process: typeof 
+
+const filtered = (array) => {
+    return array.filter(value => {
+        return value 
+    })
+}
+console.log(filtered(filterArrayValues))
+
+//Create a function that takes in an array of strings and returns an array of strings with every other letter capitalized.
+const makesWackyWords = ["simba", "nala", "zazu", "rafiki"]
+// output: ["sImBa", "nAlA", "zAzU", "rAfIkI"]
+
+//Pseudocode
+//Input: Array of strings
+//Output: Array of string with every other letter capitalized
+//Process: Higher order function .map() 
+
+const wackyLetters = (array) => {
+    
+}
+
+//Create a function that takes in a string and returns a new string with all the vowels removed.
+const str = "javascript is awesome"
+// output: "jvscrpt s wsm"
