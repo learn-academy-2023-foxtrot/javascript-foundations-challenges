@@ -34,27 +34,46 @@ return evenArr;
 } 
 console.log(evenNums(testArr2))
 // Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
-// const comboArr = [
-//   7,
-//   "n",
-//   true,
-//   "i",
-//   "c",
-//   10,
-//   "e",
-//   -388,
-//   "w",
-//   3,
-//   "o",
-//   0,
-//   "r",
-//   false,
-//   "k"
-// ]
 // // output: "nicework"
+const comboArr = [
+   7,
+   "n",
+  true,
+   "i",
+   "c",
+   10,
+   "e",
+   -388,
+   "w",
+      3,
+   "o",
+   0,
+   "r",
+   false,
+   "k"
+ ]
+ let comboArray = (positiveStatement) => {
+     
+     for(let i = 0; i < positiveStatement.length; i++) {
+        if (typeof positiveStatement[i] === "string") {
+            
+        }
+     }
+ }
+
+ //psuedo code:
+ //process: taking an array and turning into string
+ //input: array of numbers and letters
+ //output: string with only letters
+
+
+
+
 // Create a function that takes in an array of numbers and returns the sum.
-// const addThese1 = [1, 2, 3, 4]
+ //const addThese1 = [1, 2, 3, 4]
 // // output: 10
+
+
 
 // const addThese2 = []
 // // output: 0
