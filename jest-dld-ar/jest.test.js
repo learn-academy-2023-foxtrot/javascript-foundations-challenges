@@ -66,6 +66,19 @@ const stressStatus = (checkStress) => {
 //  PASS  ./jest.test.js
 
 // Write the test for a function that returns "in budget" if a price is lower than $300.
+/*
+pseudo code:
+name: testingBudget
+input: number representing price.
+output: string telling us if price in budget
+process: function expression that inputs a number and uses conditionals to see if number is in budget and returns a string
+*/
+describe("testingBudget", () => {
+    it("returns in budget if a price is lower than $300.", () => {
+        
+    })
+})
+
 
 // Create the function that will make the test pass.
 // Write the test for a function that takes in two numbers and returns the smaller number.
