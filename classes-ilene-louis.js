@@ -36,3 +36,34 @@ const blackCoffee = new Coffee("black coffee", 0, 0)
 console.log(blackCoffee)
 const coffeeOne = new Coffee("regular", 1, 2)
 console.log(coffeeOne)
+
+// Latte Maker: create a class for Latte
+// Write a Latte class that takes a flavor, a milk type, and a number of shots
+// Write a method for your Latte class that outputs the latte's profile
+// Write the code that makes a regular, single shot latte
+// Log the regular, single shot latte's profile
+// Write the code that makes a double shot, hazelnut latte with almond milk.
+// Log the double shot, hazelnut latte with almond milk's profile.
+// Volume of a Cylinder: create a class for Cylinder
+// Write a class that calculates the volume of a Cylinder: v = πr^2h (r is the radius and h is the height of the cylinder)
+// Write the code that rounds the volume of the cylinder to four decimal places
+// Write the code that creates three unique cylinder objects
+
+class Latte {
+  constructor(flavor, milkType, shots) {
+    this.flavor = flavor;
+    this.milkType = milkType;
+    this.shots = shots;
+  }
+}
+const yourCoffee = {
+  flavor: "mocha",
+  milkType: "cream",
+  shots: 1,
+  latteProfile: function() {
+    return `Your Latte is ${this.flavor} flavored, with ${this.milkType} and has ${this.shots} shots`
+  }
+}
+console.log(yourCoffee.latteProfile())
+
+const myCoffee = new Latte("Hazelnut", )
